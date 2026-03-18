@@ -1,0 +1,18 @@
+Package: linux-image-6.19.8-x64v3-xanmod1
+Source: linux-upstream
+Version: 6.19.8-x64v3-xanmod1-0~20260314.g7e750f0
+Architecture: amd64
+Maintainer: Alexandre Frade <kernel@xanmod.org>
+Installed-Size: 602850
+Filename: pool/main/atlas_xanmod_linux_image_6.19.8.deb
+Size: 102874528
+MD5sum: d45fcc75d30235249597ac65cc852cf0
+SHA1: 1c074b72ebe635c184b2e1daae10dbbe72990502
+SHA256: cf45c940e11e5ff73ba4da1d6efa00cc6912d99d5c75763d4864edff7addaa47
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.19.8-x64v3-xanmod1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.19.8-x64v3-xanmod1.
+
