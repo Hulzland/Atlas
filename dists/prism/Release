@@ -1,0 +1,10 @@
+Origin: Atlas
+Label: Atlas
+Suite: prism
+Codename: prism
+Date: Thu, 19 Mar 2026 14:01:51 +0000
+Architectures: amd64
+Components: main
+SHA256:
+ 50ac87067aaf80a404b56b00669f6fdb504b5495066749f65e1b4b5dd35ec187 300 main/binary-amd64/Packages
+ bd40cd73c824fbc32bdbabc82fd39542b191cf8b22ebcec22fc36175d8a7839d 255 main/binary-amd64/Packages.gz
