@@ -1,2 +1,67 @@
 # Atlas
-In development..
+
+## The operating system that works the way you think.
+
+Atlas brings together the stability of a professional-grade foundation with an interface that feels instantly familiar. Whether you’re coming from – Atlas adapts to you, not the other way around.
+
+The interaction is **consistent**, **intuitive**, and **intelligent**. From the moment you start the computer, you’ll notice how naturally everything falls into place.
+
+---
+
+## 🎯 Designed for humans, not just for administrators
+
+**You don’t need to learn Linux.** Atlas hides the complexity without locking you out. The interface elements are where you expect them, while still staying highly customizeable – feels like home. Keyboard shortcuts work the way they should.
+
+**Everything has a purpose.** No clutter, no duplicated tools, no sudden terminal windows. Software installation and package installation happens through the Atlas Store.
+
+**Performance is intelligence.** Atlas monitors your memory usage and prioritises the application you’re actively using. Background tasks never steal the spotlight. The result: your computer stays responsive even under heavy load, without you ever having to close a tab.
+
+---
+
+## ✨ Key features – performance and design, together
+
+### 🧠 Intelligent memory management
+
+Atlas dynamically adjusts how memory is allocated. Open dozens of browser tabs, edit large images, or run virtual machines – the system keeps your active work smooth and delays less critical tasks. less stuttering, more consistency.
+
+### 💎 Translucent Diamond
+
+A subtle, refined glass effect that makes the active window stand out while gently blurring everything behind it. It’s not a distraction – it’s a visual cue that helps you focus. The effect is hardware‑accelerated and energy‑efficient, so it never drains your battery or slows down your graphics.
+
+### 🗄️ Self‑healing storage
+
+Your files are protected against silent corruption. Atlas uses a modern file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works. Adding more storage or replacing a drive is as simple as plugging it in.
+
+### 🚀 Responsive performance core
+
+Atlas includes a tuned performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice the difference.
+
+### 🔒 Security that doesn’t get in your way
+
+Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to intall updates. You own your machine, not otherwise.
+
+### 📦 One‑click driver support
+
+NVIDIA, AMD, and Intel graphics are ready immediately. For NVIDIA GPUs, the propietary drivers install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
+
+---
+
+## 🖥️ System requirements
+
+Atlas is designed to run on everyday hardware – from older laptops to powerful workstations.
+
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **Processor** | 64‑bit, 2 cores @ 2 GHz | 4 cores @ 2.5 GHz or faster |
+| **Memory (RAM)** | 4 GB | 8 GB or more |
+| **Storage** | 25 GB free space | 64 GB SSD (or larger) |
+| **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 660 | Intel UHD Graphics 630 or equivalent / GTX 950 |
+| **Display** | 1366×768 | 1920×1080 or higher |
+
+> *The Translucent Diamond effect works on any GPU that supports compositing (2013 or newer). On older hardware, the effect is turned off by default.*
+
+---
+
+*© 2026 Atlas by Hulzland  
+© 2026 Hulzland Software  
+© 2020–2026 Hulzland*
