@@ -47,10 +47,10 @@ Atlas comes with **Bottles**, **Proton GE**, **ZLUDA**, and **SCALE** pre‑inte
 
 ## 🔒 Security that doesn’t get in your way
 
-Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to intall updates. You own your machine, not otherwise.
+Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to install updates. You own your machine, not otherwise.
 
 ## 📦 One‑click driver support
-AMD and Intel graphics are ready immediately. For NVIDIA GPUs, the propietary drivers install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
+AMD and Intel graphics are ready immediately. For NVIDIA GPUs, the propietary drivers install automatically. Wi‑Fi and Bluetooth chipsets are ready out of the box.
 
 ---
 
