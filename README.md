@@ -23,7 +23,7 @@ The interaction is designed to be **consistent**, **intuitive**, and **intellige
 
 ## ✨ Planned key features – performance and design, together
 
-### 🧠 Intelligent memory management
+## 🧠 Intelligent memory management
 
 Atlas will dynamically adjust how memory is allocated. Open dozens of browser tabs, edit large images, or run virtual machines – the system keeps your active work smooth and delays less critical tasks. Less stuttering, more consistency.
 
@@ -31,19 +31,28 @@ Atlas will dynamically adjust how memory is allocated. Open dozens of browser ta
 
 A subtle, refined glass effect that makes the active window stand out while gently blurring everything behind it. It’s not a distraction – it’s a visual cue that helps you focus. The effect is hardware‑accelerated and energy‑efficient.
 
-### 🗄️ Self‑healing storage
+## 🗄️ Self‑healing storage
 
 Your files will be protected against silent corruption. Atlas uses a modern **Btrfs** file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works.
 
-### 🚀 Responsive performance core
+## 🚀 Responsive performance core
 
 Atlas includes a tuned XanMod performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice a difference.
 
-### 🔒 Security that doesn’t get in your way
+## 🪟 Windows application support
+
+Atlas comes with **Bottles** and **Proton GE** pre‑integrated. Run Windows software and games without dual‑booting or virtual machines.
+
+- **Bottles** – Manage Windows applications in isolated environments. Install and run software or many Windows‑only program with a few clicks.
+- **Proton GE** – A custom version of Proton with additional patches for gaming. Play thousands of Windows games on Steam and other launchers, often with better performance than on non-linux based operating systems.
+
+Both tools are fully graphical. No terminal commands needed.
+
+## 🔒 Security that doesn’t get in your way
 
 Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to install updates. You own your machine, not the other way around.
 
-### 📦 One‑click driver support
+## 📦 One‑click driver support
 
 AMD and Intel graphics are ready immediately. For NVIDIA GPUs, proprietary drivers will install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
 
