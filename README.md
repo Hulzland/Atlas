@@ -41,22 +41,21 @@ Atlas includes a tuned performance kernel that reduces input lag and improves mu
 Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to intall updates. You own your machine, not otherwise.
 
 ### 📦 One‑click driver support
-
-NVIDIA, AMD, and Intel graphics are ready immediately. For NVIDIA GPUs, the propietary drivers install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
+AMD and Intel graphics are ready immediately. For NVIDIA GPUs, the propietary drivers install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
 
 ---
 
 ## 🖥️ System requirements
 
-Atlas is designed to run on everyday hardware – from older laptops to powerful workstations.
+Atlas is designed to run on everyday hardware – from older notebooks to powerful workstations.
 
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
-| **Processor** | 64‑bit, 2 cores @ 2 GHz | 4 cores @ 2.5 GHz or faster |
+| **Processor** | x86 64 Bit, 2 cores 4 CPUs @ 2 GHz | x86 64 Bit 4 cores @ 2.5 GHz or faster |
 | **Memory (RAM)** | 4 GB | 8 GB or more |
 | **Storage** | 25 GB free space | 64 GB SSD (or larger) |
 | **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 660 | Intel UHD Graphics 630 or equivalent / GTX 950 |
-| **Display** | 1366×768 | 1920×1080 or higher |
+| **Display** | 720p | 1080p or higher |
 
 > *The Translucent Diamond effect works on any GPU that supports compositing (2013 or newer). On older hardware, the effect is turned off by default.*
 
