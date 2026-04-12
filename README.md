@@ -17,7 +17,7 @@ The interaction is designed to be **consistent**, **intuitive**, and **intellige
 
 **Everything has a purpose.** No clutter, no duplicated tools, no sudden terminal windows. Software installation will happen through the Atlas Store.
 
-**Performance is intelligence.** Atlas monitors memory usage and prioritises the application you’re actively using. Background tasks never steal the spotlight. The result: your computer stays responsive even under heavy load, without you ever having to close a tab.
+**Performance is intelligence.** Atlas monitors memory usage and prioritises the application you’re actively using. Background tasks don't steal the spotlight. The result: your computer stays responsive even under heavy load, without you ever having to close a tab.
 
 ---
 
@@ -33,7 +33,7 @@ A subtle, refined glass effect that makes the active window stand out while gent
 
 ### 🗄️ Self‑healing storage
 
-Your files will be protected against silent corruption. Atlas uses a modern Btrfs file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works.
+Your files will be protected against silent corruption. Atlas uses a modern **Btrfs** file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works.
 
 ### 🚀 Responsive performance core
 
@@ -73,7 +73,7 @@ Atlas is open source (GPL‑3.0). If you ever want to customise the look, change
 
 ## 🐛 Reporting issues – help improve Atlas
 
-Atlas is under active development. You may encounter bugs, inconsistencies, or unexpected behaviour. **Hulzland Software does not assume liability** for any damage, data loss, or other issues arising from the use of this development branch.
+Atlas is under development. You may encounter bugs, inconsistencies, or unexpected behaviour. **Hulzland Software does not assume liability** for any damage, data loss, or other issues arising from the use of this development branch.
 
 If you find something that does not work as expected, please **report it** so that the final product can become better for everyone.
 
@@ -94,6 +94,6 @@ Every report helps us improve Atlas.
 
 ---
 
-© 2026 Atlas by Hulzland  
+© 2026 Atlas by Hulzland 
 © 2026 Hulzland Software  
 © 2020–2026 Hulzland
