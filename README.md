@@ -30,11 +30,11 @@ A subtle, refined glass effect that makes the active window stand out while gent
 
 ### 🗄️ Self‑healing storage
 
-Your files are protected against silent corruption. Atlas uses a modern file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works. Adding more storage or replacing a drive is as simple as plugging it in.
+Your files are protected against silent corruption. Atlas uses a modern **btrfs** file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works.
 
 ### 🚀 Responsive performance core
 
-Atlas includes a tuned performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice the difference.
+Atlas includes a tuned **XanMod** performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice a difference.
 
 ### 🔒 Security that doesn’t get in your way
 
@@ -60,6 +60,13 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 > *The Translucent Diamond effect works on any GPU that supports compositing (2013 or newer). On older hardware, the effect is turned off by default.*
 
 ---
+
+## 🧩 Built for everyone, open for tinkerers
+Atlas is **open source** (GPL‑3.0). If you ever want to customise the look, change the kernel, or build your own version, all tools and scripts are in the tools/ directory. But you never have to.
+
+## 📅 Release timeline
+The first stable release of Atlas is planned for **Q4 2026**.
+Until then, the development branch contains the latest preview version. Everyone is invited to test, report issues, and contribute in Hulzland Software.
 
 *© 2026 Atlas by Hulzland  
 © 2026 Hulzland Software  
