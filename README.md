@@ -36,14 +36,14 @@ Your files are protected against silent corruption. Atlas uses a modern **btrfs*
 
 Atlas includes a tuned **XanMod** performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice a difference.
 
-## 🪟 Windows application support
+## 🪟 Additional application support
 
-Atlas comes with **Bottles** and **Proton GE** pre‑integrated. Run Windows software and games without dual‑booting or virtual machines.
+Atlas comes with **Bottles**, **Proton GE**, **ZLUDA**, and **SCALE** pre‑integrated. Run Windows software, games, and GPU‑accelerated workloads without dual‑booting or virtual machines.
 
-- **Bottles** – Manage Windows applications in isolated environments. Install and run software or many Windows‑only program with a few clicks.
-- **Proton GE** – A custom version of Proton with additional patches for gaming. Play thousands of Windows games on Steam and other launchers, often with better performance than on non-linux based operating systems.
-
-Both tools are fully graphical. No terminal commands needed.
+- **Bottles** – Manage Windows applications in isolated environments. Install and run many Windows‑only programs with a few clicks.
+- **Proton GE** – A custom version of Proton with additional patches for gaming. Play thousands of Windows games on Steam and other launchers, often with better performance than on non-linux based systems.
+- **ZLUDA** – Run CUDA applications on non‑NVIDIA GPUs (AMD and Intel). Enables GPU‑accelerated workflows on a wider range of hardware without rewriting code.
+- **SCALE** goes a step further: it is a complete compiler toolkit that recompiles CUDA code directly into native machine code for third-party GPUs [citation:2][citation:4]. SCALE acts as a drop‑in replacement for NVIDIA's `nvcc` compiler – you don't even need to change your build scripts [citation:1][citation:3].
 
 ## 🔒 Security that doesn’t get in your way
 
