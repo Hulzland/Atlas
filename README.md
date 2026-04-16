@@ -13,7 +13,7 @@ The interaction is designed to be **consistent**, **intuitive**, and **intellige
 
 ## 🎯 Designed for humans, not just for administrators
 
-**You don’t need to learn Linux.** Atlas hides complexity without locking you out. The interface elements are where you expect them, while still staying highly customizable – it feels like home. Keyboard shortcuts work the way they should.
+**You don’t need to learn Linux.** Atlas hides complexity without locking you out. The interface elements are where you expect them, while still staying highly customizable – it feels like home. 
 
 **Everything has a purpose.** No clutter, no duplicated tools, no sudden terminal windows. Software installation will happen through the Atlas Store.
 
@@ -37,16 +37,16 @@ Your files will be protected against silent corruption. Atlas uses a modern **Bt
 
 ## 🚀 Responsive performance core
 
-Atlas includes a tuned XanMod performance kernel that reduces input lag and improves multitasking. Whether you’re compiling code, rendering video, or playing games, you’ll notice a difference.
+Atlas ships with an tuned kernel that improves responsive interactivity, multitasking troughput and overall system efficiency. Whether you’re compiling code, rendering video, playing games or just browse the web, you’ll notice a difference.
 
-## 🪟 Additional application support
+## 🪟 Additional application integration
 
 Atlas comes with **Bottles**, **Proton GE**, **ZLUDA**, and **SCALE** pre‑integrated. Run Windows software, games, and GPU‑accelerated workloads without dual‑booting or virtual machines.
 
 - **Bottles** – Manage Windows applications in isolated environments. Install and run many Windows‑only programs with a few clicks.
 - **Proton GE** – A custom version of Proton with additional patches for gaming. Play thousands of Windows games on Steam and other launchers, often with better performance than on non-linux based systems.
 - **ZLUDA** – Run CUDA applications on non‑NVIDIA GPUs (AMD and Intel). Enables GPU‑accelerated workflows on a wider range of hardware without rewriting code.
-- **SCALE** goes a step further: it is a complete compiler toolkit that recompiles CUDA code directly into native machine code for third-party GPUs [citation:2][citation:4]. SCALE acts as a drop‑in replacement for NVIDIA's `nvcc` compiler – you don't even need to change your build scripts [citation:1][citation:3].
+- **SCALE** goes a step further: it is a complete compiler toolkit that recompiles CUDA code directly into native machine code for third-party GPUs. SCALE acts as a drop‑in replacement for NVIDIA's `nvcc` compiler – you don't even need to change your build scripts.
 
 All tools are fully graphical or pre‑configured. No terminal commands needed.
 
@@ -79,6 +79,7 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 - **Boot Mode:** UEFI recommended.
 
 > *Your CPU must support the AVX instruction set to boot this OS. If your hardware is below this minimum (e.g., older Core 2 Duo or early Pentium/Celeron models without AVX), the system will fail to boot and trigger a kernel panic.*
+> 
 > *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing (2012 or newer). On older hardware, the effect will be turned off by default.*
 
 ---
