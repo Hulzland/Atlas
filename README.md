@@ -18,7 +18,7 @@ The interaction is designed to be **consistent**, **intuitive**, and **intellige
 
 ---
 
-## ✨ Planned key features – performance and design, together
+## ✨ Key features – performance and design, together
 
 ## 🧠 Intelligent memory management
 
