@@ -1,4 +1,4 @@
-# Atlas – Development Branch
+# Atlas
 
 ## The operating system that works the way you think.
 
