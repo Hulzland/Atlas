@@ -6,9 +6,6 @@ Atlas is being built on a professional-grade foundation with an interface that w
 
 The interaction is designed to be **consistent**, **intuitive**, and **intelligent**. From the moment you start the computer, you’ll notice how naturally everything falls into place.
 
-> **⚠️ This is the development branch.**  
-> Everything described here is a work in progress. Features may change, and stability is not yet guaranteed. The first early release is planned for Q3 2026.
-
 ---
 
 ## 🎯 Designed for humans, not just for administrators
