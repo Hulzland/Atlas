@@ -1,6 +1,6 @@
 # Atlas
 
-## The operating system that works the way you think.
+## The operating system that works the way you think (soon).
 
 Atlas is being built on a professional-grade foundation with an interface that will feel instantly familiar. Whether you’re coming from – Atlas will adapt to you, not the other way around.
 
@@ -18,7 +18,7 @@ The interaction is designed to be **consistent**, **intuitive**, and **intellige
 
 ---
 
-## ✨ Key features – performance and design, together
+## ✨ Planned key features – performance and design, together
 
 ## 🧠 Intelligent memory management
 
@@ -72,8 +72,8 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 - **Microarchitecture:** x86-64-v2 and mandatory **AVX** support.
 - **Required Instruction Sets:** **SSE4.2**, **POPCNT**, and **AVX**.
 - **Compatibility:** Most CPUs from 2011 onwards (Intel Sandy Bridge / AMD Bulldozer or newer).
-- **Hardware Virtualization:** Highly recommended in BIOS/UEFI.
-- **Boot Mode:** **UEFI** with **Secure Boot** recommended.
+- **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
+- **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
 > *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing (2012 or newer). On older hardware, the effect will be turned off by default.*
 
@@ -102,9 +102,8 @@ Every report helps us improve Atlas.
 
 ## 📅 Release timeline
 
-- **Q4 2026** – First final release
-- Until then, Atlas remains in **internal development/testing**.  
-
+- **Q4 2026** – First productive release  
+- Until then, Atlas remains in **development branch**.  
 ---
 
 © 2026 Atlas by Hulzland 
