@@ -85,21 +85,6 @@ Atlas is open source (GPL‑3.0). If you ever want to customise the look, change
 
 ---
 
-## 🐛 Reporting issues – help improve Atlas
-
-Atlas is under development. You may encounter bugs, inconsistencies, or unexpected behaviour. **Hulzland Software does not assume liability** for any damage, data loss, or other issues arising from the use of this development branch.
-
-If you find something that does not work as expected, please **report it** so that the final product can become better for everyone.
-
-**How to report:**
-- Open an issue on the [GitHub issue tracker](https://github.com/Hulzland/Atlas/issues)
-- Describe the problem clearly (what happened, what you expected, steps to reproduce)
-- Include logs or screenshots if possible
-
-Every report helps us improve Atlas.
-
----
-
 ## 📅 Release timeline
 
 - **Q4 2026** – First productive release  
