@@ -1,6 +1,6 @@
 # Atlas
 
-## The operating system that works the way you think (soon).
+## The operating system that works the way you think.
 
 Atlas is being built on a professional-grade foundation with an interface that will feel instantly familiar. Whether you’re coming from – Atlas will adapt to you, not the other way around.
 
