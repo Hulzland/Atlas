@@ -75,8 +75,8 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 - **Microarchitecture:** x86-64-v2 and mandatory **AVX** support.
 - **Required Instruction Sets:** **SSE4.2**, **POPCNT**, and **AVX**.
 - **Compatibility:** Most CPUs from 2011 onwards (Intel Sandy Bridge / AMD Bulldozer or newer).
-- **Hardware Virtualization:** Highly recommended in BIOS/UEFI.
-- **Boot Mode:** **UEFI** with **Secure Boot** recommended.
+- **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
+- **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
 > *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing (2012 or newer). On older hardware, the effect will be turned off by default.*
 
