@@ -2,7 +2,7 @@
 
 ## 🖥️ Legacy Architectures (x86-64-v2.1 Baseline with AVX1 Minimum, without AVX2)
 
-The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard, feature **AVX (1)**,
+The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard, feature **AVX**,
 but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Form Factors |
@@ -26,7 +26,7 @@ but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 ## 🖥️ Intermediate Architectures (x86-64-v3 Baseline with AVX2 Minimum, without AVX-512)
 
-The following table lists all individual commercial processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v3** standard (requiring **AVX2**, FMA3, BMI, etc.) but lack support for **AVX-512** (and thus do not meet x86-64-v4 requirements).
+The following table lists all individual commercial processor architectures and platforms from **Intel**, **AMD**, **Hygon** and **Zhaoxin** that fully comply with the **x86-64-v3** standard (requiring **AVX2**, FMA3, BMI, etc.) but lack support for **AVX-512** (and thus do not meet x86-64-v4 requirements).
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Target Segments |
 | :--- | :--- | :---: | :--- | :--- |
@@ -66,7 +66,7 @@ The following table lists all individual commercial processor architectures and 
 
 ## 🖥️ Advanced Architectures (x86-64-v4 Baseline with AVX-512)
 
-The following table lists all individual commercial processor architectures and platforms from **Intel** and **AMD** that fully comply with the **x86-64-v4** standard by featuring full, native support for **AVX-512** execution units.
+The following table lists all individual commercial processor architectures and platforms from **Intel**, **AMD** and **Hygon** that fully comply with the **x86-64-v4** standard by featuring full, native support for **AVX-512** execution units.
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Target Segments |
 | :--- | :--- | :---: | :--- | :--- |
@@ -92,7 +92,7 @@ The following table lists all individual commercial processor architectures and 
 capping their maximum compatibility at **x86-64-v3**.
 * **The Missing Hybrid Consumer Chips:** *Alder Lake, Raptor Lake, Meteor Lake, Arrow Lake, Lunar Lake,* and *Panther Lake* are strictly excluded from x86-64-v4. To keep instruction sets identical across P-cores and E-cores, Intel permanently disabled or did not include AVX-512 units on these consumer platforms, grounding them to **x86-64-v3**.
 
-## 🖥️ Cutting-Edge Architectures (x86-64-v5 Convergence with APX & AVX512/AVX10)
+## 🖥️ Cutting-Edge Architectures (x86-64-v5 Baseline with AVX512 / AVX10 & APX)
 
 The following table tracks all commercial processor architectures from **Intel** and **AMD** that adopt the unified x86-64 convergence path. These platforms natively support **Intel APX** (Advanced Performance Extensions) alongside **AVX-512 / AVX10**, providing 32 General-Purpose Registers (GPRs) and full 512-bit vector pipelines across all operational cores.
 
