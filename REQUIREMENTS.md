@@ -48,6 +48,8 @@ The following table lists all individual commercial processor architectures and 
 | **AMD** | **Zen 2** | 2019 | Ryzen 9 3900X, Ryzen 5 3600 | Ryzen 3 3100, Ryzen 5 4500, Steam Deck Custom APU |
 | **AMD** | **Zen 3** | 2020 | Ryzen 9 5950X, Ryzen 7 5800X3D | Ryzen 5 5600X, Ryzen 5 5600G, EPYC 7003 (Milan) |
 | **AMD** | **Zen 3+** | 2022 | Ryzen 7 6800U, Ryzen 9 6900HX | Ryzen 5 6600U, Ryzen 7 7735HS (Mobile) |
+| **Hygon** | **Dhyana** | 2018 | Hygon C86 7185, C86 3185 | Enterprise Data Center & Server Modules |
+| **Hygon** | **C86-3G / C86-4G** | 2021 | Hygon C86 7380, C86 3490 | Mainstream Desktop & Server Solutions |
 | **Zhaoxin** | **Yongfeng** | 2022 | KaiXian KX-6000G/4 | Kaishen KH-40000 Server Series |
 | **Zhaoxin** | **Century Avenue** | 2023 | KaiXian KX-7000 Series | Latest desktop and embedded DIY motherboards |
 
@@ -62,7 +64,7 @@ The following table lists all individual commercial processor architectures and 
 * **AMD Generations:** * All AMD architectures from *Zen 1* up to *Zen 3+* lack AVX-512 and belong to **x86-64-v3**. 
   * AMD transitioned directly to **x86-64-v4** starting with the **Zen 4** architecture (Ryzen 7000 series, 2022) and **Zen 5** (Ryzen 9000 series), which feature native AVX-512 execution blocks.
 
-## 🖥️ Advanced Architectures (x86-64-v4 Baseline with AVX-512/AVX10)
+## 🖥️ Advanced Architectures (x86-64-v4 Baseline with AVX-512)
 
 The following table lists all individual commercial processor architectures and platforms from **Intel** and **AMD** that fully comply with the **x86-64-v4** standard by featuring full, native support for **AVX-512** execution units.
 
@@ -80,6 +82,7 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Granite Rapids** | 2024 | Xeon 6980P, Xeon 6780P | High-performance P-Core enterprise server platforms |
 | **AMD** | **Zen 4** | 2022 | Ryzen 9 7950X, Ryzen 7 7800X3D | Ryzen 5 7600, EPYC 9654 (Genoa), Ryzen 7 8700G (APU) |
 | **AMD** | **Zen 5** | 2024 | Ryzen 9 9950X, Ryzen 7 9700X | Ryzen AI 9 HX 370 (Mobile), EPYC 9555 (Turin) |
+| **Hygon** | **C86-5G** | 2025 | Hygon C86 7590 | Next-Gen Enterprise 128-Core Servers |
 
 ---
 
