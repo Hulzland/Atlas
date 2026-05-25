@@ -1,6 +1,6 @@
-## 🖥️ Supported CPU Architectures based on internal testing
+## 🖥️ Supported x86-64 CPU Architectures (Internal Test Coverage)
 
-## 🖥️ Legacy Architectures (x86-64-v2.1 Baseline with SSE4.2, POPCNT and AVX)
+## 💿 Legacy Architectures (x86-64-v2.1 Baseline with SSE4.2, POPCNT and AVX)
 
 The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard, feature **AVX**,
 but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
@@ -24,7 +24,7 @@ but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 * **Intel Atom & Ultra-Low-Power (e.g., Cherry Trail, Bay Trail):** While they support x86-64-v2 features like SSE4.2, they physically lack AVX execution units and are excluded.
 
-## 🖥️ Intermediate Architectures (x86-64-v3 Baseline with AVX2 Minimum, without AVX-512)
+## 💻 Intermediate Architectures (x86-64-v3 Baseline with AVX2 Minimum, without AVX-512)
 
 The following table lists all individual commercial processor architectures and platforms from **Intel**, **AMD**, **Hygon** and **Zhaoxin** that fully comply with the **x86-64-v3** standard (requiring **AVX2**, FMA3, BMI, etc.) but lack support for **AVX-512** (and thus do not meet x86-64-v4 requirements).
 
@@ -68,7 +68,7 @@ The following table lists all individual commercial processor architectures and 
 * **AMD Generations:** All AMD architectures from **Zen 1** up to **Zen 3+** lack AVX-512 and belong to **x86-64-v3**. 
   * AMD transitioned directly to **x86-64-v4** starting with the **Zen 4** architecture (Ryzen 7000 series, 2022) and **Zen 5** (Ryzen 9000 series), which feature native AVX-512 execution blocks.
 
-## 🖥️ Advanced Architectures (x86-64-v4 Baseline with AVX-512)
+## 💻 Advanced Architectures (x86-64-v4 Baseline with AVX-512)
 
 The following table lists all individual commercial processor architectures and platforms from **Intel**, **AMD** and **Hygon** that fully comply with the **x86-64-v4** standard by featuring full, native support for **AVX-512** execution units.
 
@@ -96,7 +96,7 @@ The following table lists all individual commercial processor architectures and 
 capping their maximum compatibility at **x86-64-v3**.
 * **The Missing Hybrid Consumer Chips:** *Alder Lake, Raptor Lake, Meteor Lake, Arrow Lake, Lunar Lake,* and *Panther Lake* are strictly excluded from x86-64-v4. To keep instruction sets identical across P-cores and E-cores, Intel permanently disabled or did not include AVX-512 units on these consumer platforms, grounding them to **x86-64-v3**.
 
-## 🖥️ Cutting-Edge Architectures (x86-64-v5 Baseline with AVX512 / AVX10 & APX)
+## 🚀 Cutting-Edge Architectures (x86-64-v5 Baseline with AVX512 / AVX10 & APX)
 
 The following table tracks all commercial processor architectures from **Intel** and **AMD** that adopt the unified x86-64 convergence path. These platforms natively support **Intel APX** (Advanced Performance Extensions) alongside **AVX-512 / AVX10**, providing 32 General-Purpose Registers (GPRs) and full 512-bit vector pipelines across all operational cores.
 
@@ -117,3 +117,12 @@ Because the EVEX hardware state decoder was originally established for AVX-512, 
 * **Why Granite Rapids & Earlier are Missing:** While *Intel Granite Rapids (Xeon 6)* pioneered the **AVX10.1** standard, its microarchitecture was finalized before the APX decoder layout was ready. As a result, Granite Rapids features AVX10 but lacks APX entirely.
 * **The Clean Slate of Nova Lake & Beyond:** Previous hybrid consumer chips (like *Alder Lake* through *Panther Lake*) dropped AVX-512 due to core asymmetry issues.
 **Nova Lake** breaks this barrier by utilizing *Coyote Cove* P-Cores and *Arctic Wolf* E-Cores, which both natively decode **AVX10.2** and **APX**, offering a unified x86-64 instruction set across all threads.
+
+###  📌 Final Note
+
+Finally, please note that this operating system is primarily aimed at end users who work directly with their computers — ranging from power-efficient and mainstream processors all the way to power user systems. It is not designed to fully cover every existing server architecture. While some server platforms are supported, the focus lies on everyday and workstation environments where the user interacts directly. Higher-tier server segments or specialized datacenter architectures are therefore only partially or not included.
+
+---
+
+© 2026 Atlas by Hulzland © 2026 Hulzland Software
+© 2020–2026 Hulzland
