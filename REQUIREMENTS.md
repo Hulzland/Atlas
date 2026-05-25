@@ -22,7 +22,7 @@ but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 ### ⚠️ Architecture Exclusions
 
-* **Intel Atom & Ultra-Low-Power (e.g., Cherry Trail, Bay Trail):** While they support x86-64-v2 features like SSE4.2, they physically lack AVX execution units (0% AVX support) and are excluded.
+* **Intel Atom & Ultra-Low-Power (e.g., Cherry Trail, Bay Trail):** While they support x86-64-v2 features like SSE4.2, they physically lack AVX execution units and are excluded.
 
 ## 🖥️ Intermediate Architectures (x86-64-v3 Baseline with AVX2 Minimum, without AVX-512)
 
@@ -35,13 +35,17 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Skylake** | 2015 | Core i7-6700K, Core i5-6600K | Core i3-6100, Core m7-6Y75, Xeon E3-1200 v5 |
 | **Intel** | **Kaby Lake** | 2017 | Core i7-7700K, Core i5-7400 | Core i3-7100, Celeron G3930, Core m3-7Y30 |
 | **Intel** | **Coffee Lake** | 2017 | Core i9-9900K, Core i7-8700K | Core i5-8400, Core i3-8100, Xeon E-2100 |
+| **Intel** | **Whiskey Lake** | 2018 | Core i7-8565U, Core i5-8265U | Core i7-8665UE, (Low-Power and Embedded platforms) |
+| **Intel** | **Amber Lake** | 2018 | Core i7-8500Y, Core m3-8100Y | Ultra low-power Ultrabook processors |
 | **Intel** | **Comet Lake** | 2020 | Core i9-10900K, Core i7-10700 | Core i5-10400, Core i3-10100, Pentium Gold G6400 |
 | **Intel** | **Alder Lake** | 2021 | Core i9-12900K, Core i5-12400 | Core i7-12700, Processor N100, Core i3-12100F |
 | **Intel** | **Raptor Lake** | 2022 | Core i9-13900K, Core i7-14700K | Core i5-13600K, Core i3-14100, Core i9-13900HX |
 | **Intel** | **Meteor Lake** | 2023 | Core Ultra 7 155H, Ultra 5 125H | Core Ultra 9 185H, Core Ultra 7 165U (Mobile) |
+| **Intel** | **Lunar Lake** | 2024 | Core Ultra 9 288V, Ultra 7 258V | Core Ultra 7 256V, Intel Core Ultra 5 226V |
 | **Intel** | **Arrow Lake** | 2024 | Core Ultra 9 285K, Ultra 7 265K | Core Ultra 5 245K, Core Ultra 5 225F |
-| **Intel** | **Bartlett Lake** | 2026 | Core 9 273PTE, Core 7 253 | Intel Core Series 2 (All-P-Core Embedded/Edge Platform) |
+| **Intel** | **Bartlett Lake** | 2026 | Core 9 273PTE, Core 7 253 | Core Series 2 (All-P-Core Embedded/Edge Platform) |
 | **Intel** | **Panther Lake** | 2026 | Core Ultra 9 385H, Ultra 7 355H | Core Ultra Series 3 (Built on Intel 18A process) |
+| **Intel** | **Wildcat Lake** | 2026 | Core 7 360, Core 5 330 | Core Series 3 (Built on Intel 18A process) |
 | **AMD** | **Excavator** | 2015 | Athlon X4 845, A10-9700 | "Carrizo" & "Bristol Ridge" APUs (A12-9800) |
 | **AMD** | **Zen 1** | 2017 | Ryzen 7 1800X, Ryzen 5 1600 | Ryzen 3 1200, Threadripper 1950X, EPYC 7001 |
 | **AMD** | **Zen+** | 2018 | Ryzen 7 2700X, Ryzen 5 2600 | Ryzen 3 2200G, Threadripper 2950X, Ryzen 5 1600 (AF) |
@@ -57,11 +61,11 @@ The following table lists all individual commercial processor architectures and 
 
 ### ⚠️ Architectual Exclusions & Clarifications
 
-* **The Intel Skylake Split:** * Standard mainstream **Skylake (Consumer)** chips (6th Gen Core for LGA1151, laptops, etc.) do *not* support AVX-512 and are strictly **x86-64-v3**.
+* **The Intel Skylake Split:** Standard mainstream Skylake chips (6th Gen Core for LGA1151, laptops, etc.) do *not* support AVX-512 and are strictly **x86-64-v3**.
   * High-End Desktop (HEDT) and Server variants, specifically **Skylake-X** and **Skylake-SP (Xeon Scalable)**, feature native AVX-512 support and are therefore excluded as they qualify for **x86-64-v4**.
-* **Other Intel v4 Families:** * **Ice Lake (10th Gen)**, **Rocket Lake (11th Gen)**, and **Tiger Lake** natively support AVX-512 across their core lineups and are classified under **x86-64-v4**.
+* **Other Intel v4 Families:** **Ice Lake (10th Gen)**, **Rocket Lake (11th Gen)**, and **Tiger Lake** natively support AVX-512 across their core lineups and are classified under **x86-64-v4**.
   * While *Alder Lake (12th Gen)* and newer hybrid/specialized architectures feature microarchitectures that technically support AVX-512 on early silicon, Intel permanently fused it off via microcode and BIOS. Thus, the entire platform families of Alder Lake, Raptor Lake, Meteor Lake, Arrow Lake, Lunar Lake, Bartlett Lake, and Panther Lake remain fully **x86-64-v3** compliant.
-* **AMD Generations:** * All AMD architectures from *Zen 1* up to *Zen 3+* lack AVX-512 and belong to **x86-64-v3**. 
+* **AMD Generations:** All AMD architectures from **Zen 1** up to **Zen 3+** lack AVX-512 and belong to **x86-64-v3**. 
   * AMD transitioned directly to **x86-64-v4** starting with the **Zen 4** architecture (Ryzen 7000 series, 2022) and **Zen 5** (Ryzen 9000 series), which feature native AVX-512 execution blocks.
 
 ## 🖥️ Advanced Architectures (x86-64-v4 Baseline with AVX-512)
@@ -78,8 +82,8 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Tiger Lake** | 2020 | Core i7-1165G7, Core i9-11900H | Core i5-1135G7, Core i3-1115G4 (Mainstream Mobile) |
 | **Intel** | **Rocket Lake** | 2021 | Core i9-11900K, Core i7-11700K | Core i5-11400, Xeon W-1300 Series (Mainstream Desktop) |
 | **Intel** | **Sapphire Rapids** | 2023 | Xeon Platinum 8480+, Xeon W9-3495X | Xeon Gold 6430, Xeon W7-2495X (Workstation / Server) |
-| **Intel** | **Emerald Rapids** | 2023 | Xeon Platinum 8592+, Xeon Gold 6548Y | 5th Gen Xeon Scalable Enterprise Data Center Platforms |
-| **Intel** | **Granite Rapids** | 2024 | Xeon 6980P, Xeon 6780P | High-performance P-Core enterprise server platforms |
+| **Intel** | **Emerald Rapids** | 2023 | W-3500, Xeon W-2500 | W | Specialized workstation platforms |
+| **Intel** | **Granite Rapids** | 2024 | Xeon 6980P, Xeon 6780P | High-performance P-Core workstation platforms |
 | **AMD** | **Zen 4** | 2022 | Ryzen 9 7950X, Ryzen 7 7800X3D | Ryzen 5 7600, EPYC 9654 (Genoa), Ryzen 7 8700G (APU) |
 | **AMD** | **Zen 5** | 2024 | Ryzen 9 9950X, Ryzen 7 9700X | Ryzen AI 9 HX 370 (Mobile), EPYC 9555 (Turin) |
 | **Hygon** | **C86-5G** | 2025 | Hygon C86 7590 | Next-Gen Enterprise 128-Core Servers |
@@ -98,12 +102,12 @@ The following table tracks all commercial processor architectures from **Intel**
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Target Segments |
 | :--- | :--- | :---: | :--- | :--- |
-| **Intel** | **Diamond Rapids** | 2025 | Xeon Platinum 7590P, Xeon Gold 7550V | Xeon 6 / Xeon 7 Series (Enterprise Server) |
+| **Intel** | **Diamond Rapids** | 2025 | Xeon Platinum 7590P, Xeon Gold 7550V | Xeon 6 / Xeon 7 Series (Workstation) |
 | **Intel** | **Nova Lake** | 2026 | Core Ultra 9 495K, Core Ultra 7 475K | Core Ultra Series 4 (Desktop & Mobile) |
 | **Intel** | **Razor Lake** | 2027 | *Upcoming Generation (TBA)* | High-End Desktop, Gaming & Mainstream Laptops |
 | **Intel** | **Titan Lake** | 2028 | *Upcoming Generation (TBA)* | Next-Gen Unified Platforms |
 | **Intel** | **Moon Lake** | 2028 | *Upcoming Generation (TBA)* | Ultra-Low-Power & Efficient Budget SoCs |
-| **AMD** | **Zen 6** | 2026 / 2027 | Olympic Ridge, EPYC 10654 | Ryzen AI 500 Series & EPYC Turin-Successor |
+| **AMD** | **Zen 6** | 2026 | Olympic Ridge, EPYC 10654 | Ryzen AI 500 Series & EPYC Turin-Successor |
 
 ---
 
