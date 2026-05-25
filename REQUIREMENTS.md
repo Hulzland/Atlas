@@ -43,11 +43,11 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Meteor Lake** | 2023 | Core Ultra 7 155H, Ultra 5 125H | Core Ultra 9 185H, Core Ultra 7 165U (Mobile) |
 | **Intel** | **Lunar Lake** | 2024 | Core Ultra 9 288V, Ultra 7 258V | Core Ultra 7 256V, Intel Core Ultra 5 226V |
 | **Intel** | **Arrow Lake** | 2024 | Core Ultra 9 285K, Ultra 7 265K | Core Ultra 5 245K, Core Ultra 5 225F |
-| **Intel** | **Bartlett Lake** | 2026 | Core 9 273PTE, Core 7 253 | Core Series 2 (All-P-Core Embedded/Edge Platform) |
 | **Intel** | **Panther Lake** | 2026 | Core Ultra 9 385H, Ultra 7 355H | Core Ultra Series 3 (Built on Intel 18A process) |
+| **Intel** | **Bartlett Lake** | 2026 | Core 9 273PTE, Core 7 253 | Core Series 2 (All-P-Core Embedded/Edge Platform) |
 | **Intel** | **Wildcat Lake** | 2026 | Core 7 360, Core 5 330 | Core Series 3 (Built on Intel 18A process) |
 | **AMD** | **Excavator** | 2015 | Athlon X4 845, A10-9700 | "Carrizo" & "Bristol Ridge" APUs (A12-9800) |
-| **AMD** | **Zen 1** | 2017 | Ryzen 7 1800X, Ryzen 5 1600 | Ryzen 3 1200, Threadripper 1950X, EPYC 7001 |
+| **AMD** | **Zen** | 2017 | Ryzen 7 1800X, Ryzen 5 1600 | Ryzen 3 1200, Threadripper 1950X, EPYC 7001 |
 | **AMD** | **Zen+** | 2018 | Ryzen 7 2700X, Ryzen 5 2600 | Ryzen 3 2200G, Threadripper 2950X, Ryzen 5 1600 (AF) |
 | **AMD** | **Zen 2** | 2019 | Ryzen 9 3900X, Ryzen 5 3600 | Ryzen 3 3100, Ryzen 5 4500, Steam Deck Custom APU |
 | **AMD** | **Zen 3** | 2020 | Ryzen 9 5950X, Ryzen 7 5800X3D | Ryzen 5 5600X, Ryzen 5 5600G, EPYC 7003 (Milan) |
