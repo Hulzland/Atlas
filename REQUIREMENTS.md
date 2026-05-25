@@ -1,6 +1,6 @@
 ## 🖥️ Supported CPU Architectures based on internal testing
 
-## 🖥️ Legacy Architectures (x86-64-v2.1 Baseline with AVX1 Minimum, without AVX2)
+## 🖥️ Legacy Architectures (x86-64-v2.1 Baseline with SSE4.2, POPCNT and AVX)
 
 The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard, feature **AVX**,
 but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
