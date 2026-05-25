@@ -12,8 +12,8 @@ but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 | **AMD** | **Bulldozer** | 2011 | FX-8150, FX-6100, FX-4100 | Opteron 6200 Series, Opteron 4200 Series |
 | **AMD** | **Piledriver** | 2012 | FX-8350, FX-6300, FX-4300 | "Trinity" & "Richland" APUs (A10-5800K, A8-6600K), Opteron 6300 |
 | **AMD** | **Steamroller** | 2014 | Athlon X4 860K, FX-7600P | "Kaveri" & "Godavari" APUs (A10-7850K, A10-7800) |
-| **AMD** | **Jaguar** *(Low-Power)* | 2013 | Athlon 5350, Sempron 3850 | PlayStation 4 & Xbox One Custom APUs, A6-5200 Mobile |
-| **AMD** | **Puma** *(Low-Power)* | 2014 | AMD A8-6410, AMD E1-6010 | "Beema" & "Mullins" SoCs, GX-412TC (Embedded) |
+| **AMD** | **Jaguar** | 2013 | Athlon 5350, Sempron 3850 | PlayStation 4 & Xbox One Custom APUs, A6-5200 Mobile |
+| **AMD** | **Puma** | 2014 | AMD A8-6410, AMD E1-6010 | "Beema" & "Mullins" SoCs, GX-412TC (Embedded) |
 | **Zhaoxin** | **Zhangjiang** | 2015 | KaiXian ZX-C 4580, ZX-C+ 4701 | Kaishen ZX-C+ 4700 (Server) |
 | **Zhaoxin** | **Wudaokou** | 2017 | KaiXian KX-5640, KX-5540 | KX-U5580, KX-U5680 |
 | **Zhaoxin** | **Lujiazui** | 2019 | KaiXian KX-6640MA, KX-6780A | KX-6640A, KX-6000G Series (Embedded/Mini-PCs) |
