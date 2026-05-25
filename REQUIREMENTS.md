@@ -77,7 +77,7 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Skylake-X / Skylake-SP** | 2017 | Core i9-7900X, Xeon Gold 6130 | Core i7-7820X (HEDT), Xeon Platinum 8180 (Server) |
 | **Intel** | **Cannon Lake** | 2018 | Core i3-8121U | Ultra-rare 10nm mainstream mobile chip (Crimson Canyon NUC) |
 | **Intel** | **Cascade Lake** | 2019 | Core i9-10980XE, Xeon Gold 6248R | Core i9-10900X (HEDT), Xeon Silver 4210R, Xeon W-2295 |
-| **Intel** | **Ice Lake (Client & Server)** | 2019 | Core i7-1065G7, Xeon Platinum 8380 | Core i5-1035G1, Core i3-1005G1, Xeon Gold 6330 |
+| **Intel** | **Ice Lake** | 2019 | Core i7-1065G7, Xeon Platinum 8380 | Core i5-1035G1, Core i3-1005G1, Xeon Gold 6330 |
 | **Intel** | **Cooper Lake** | 2020 | Xeon Platinum 8380H | Xeon Gold 5320H (Specialized 4/8-Socket Enterprise) |
 | **Intel** | **Tiger Lake** | 2020 | Core i7-1165G7, Core i9-11900H | Core i5-1135G7, Core i3-1115G4 (Mainstream Mobile) |
 | **Intel** | **Rocket Lake** | 2021 | Core i9-11900K, Core i7-11700K | Core i5-11400, Xeon W-1300 Series (Mainstream Desktop) |
