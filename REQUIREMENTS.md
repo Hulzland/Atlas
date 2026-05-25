@@ -78,11 +78,11 @@ The following table lists all individual commercial processor architectures and 
 | **Intel** | **Cannon Lake** | 2018 | Core i3-8121U | Ultra-rare 10nm mainstream mobile chip (Crimson Canyon NUC) |
 | **Intel** | **Cascade Lake** | 2019 | Core i9-10980XE, Xeon Gold 6248R | Core i9-10900X (HEDT), Xeon Silver 4210R, Xeon W-2295 |
 | **Intel** | **Ice Lake (Client & Server)** | 2019 | Core i7-1065G7, Xeon Platinum 8380 | Core i5-1035G1, Core i3-1005G1, Xeon Gold 6330 |
-| **Intel** | **Cooper Lake** | 2020 | Xeon Platinum 8380H | Xeon Gold 5320H (Specialized 4/8-Socket Enterprise Server) |
+| **Intel** | **Cooper Lake** | 2020 | Xeon Platinum 8380H | Xeon Gold 5320H (Specialized 4/8-Socket Enterprise) |
 | **Intel** | **Tiger Lake** | 2020 | Core i7-1165G7, Core i9-11900H | Core i5-1135G7, Core i3-1115G4 (Mainstream Mobile) |
 | **Intel** | **Rocket Lake** | 2021 | Core i9-11900K, Core i7-11700K | Core i5-11400, Xeon W-1300 Series (Mainstream Desktop) |
 | **Intel** | **Sapphire Rapids** | 2023 | Xeon Platinum 8480+, Xeon W9-3495X | Xeon Gold 6430, Xeon W7-2495X (Workstation / Server) |
-| **Intel** | **Emerald Rapids** | 2023 | W-3500, Xeon W-2500 | W | Specialized workstation platforms |
+| **Intel** | **Emerald Rapids** | 2023 | W-3500, Xeon W-2500 | | Specialized workstation platforms |
 | **Intel** | **Granite Rapids** | 2024 | Xeon 6980P, Xeon 6780P | High-performance P-Core workstation platforms |
 | **AMD** | **Zen 4** | 2022 | Ryzen 9 7950X, Ryzen 7 7800X3D | Ryzen 5 7600, EPYC 9654 (Genoa), Ryzen 7 8700G (APU) |
 | **AMD** | **Zen 5** | 2024 | Ryzen 9 9950X, Ryzen 7 9700X | Ryzen AI 9 HX 370 (Mobile), EPYC 9555 (Turin) |
@@ -102,12 +102,11 @@ The following table tracks all commercial processor architectures from **Intel**
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Target Segments |
 | :--- | :--- | :---: | :--- | :--- |
-| **Intel** | **Diamond Rapids** | 2025 | Xeon Platinum 7590P, Xeon Gold 7550V | Xeon 6 / Xeon 7 Series (Workstation) |
 | **Intel** | **Nova Lake** | 2026 | Core Ultra 9 495K, Core Ultra 7 475K | Core Ultra Series 4 (Desktop & Mobile) |
 | **Intel** | **Razor Lake** | 2027 | *Upcoming Generation (TBA)* | High-End Desktop, Gaming & Mainstream Laptops |
 | **Intel** | **Titan Lake** | 2028 | *Upcoming Generation (TBA)* | Next-Gen Unified Platforms |
 | **Intel** | **Moon Lake** | 2028 | *Upcoming Generation (TBA)* | Ultra-Low-Power & Efficient Budget SoCs |
-| **AMD** | **Zen 6** | 2026 | Olympic Ridge, EPYC 10654 | Ryzen AI 500 Series & EPYC Turin-Successor |
+| **AMD** | **Zen 6** | 2026 | Olympic Ridge, EPYC 10654 | Ryzen AI 500 Series & Next-Gen Threadripper |
 
 ---
 
