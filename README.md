@@ -69,7 +69,7 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 | **Processor** | x86 64‑bit, 2 cores / 4 CPUs @ 2 GHz | x86 64‑bit, 4 cores @ 2.5 GHz or faster |
 | **Memory (RAM)** | 4 GB | 8 GB or more |
 | **Storage** | 25 GB free space | 64 GB SSD (or larger) |
-| **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 660 | Intel UHD Graphics 630 or equivalent / GTX 950 |
+| **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 750 Ti | Intel HD Graphics 530 or equivalent / GTX 950 |
 | **Display** | 720p | 1080p or higher |
 
 - **Microarchitecture:** x86-64-v2 and mandatory **AVX** support.
