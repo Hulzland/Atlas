@@ -1,3 +1,19 @@
+<h1 align="center">
+  <img loading="lazy" src="readme-res/banner.png"/>
+</h1>
+<p align="center">
+  <a href="https://github.com/Hulzland/Atlas/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/Hulzland/Atlas?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/Hulzland/Atlas/commits/sixteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/Hulzland/Atlas/development?style=for-the-badge"/></a>
+  <a href="https://github.com/Hulzland/Atlas/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Hulzland/Atlas?style=for-the-badge"/></a>
+</p>
+<p align="center">Atlas is a work-in-progress operating system based on Debian, KDE and the GNU/Linux Kernel.</p>
+
+<p align="center">
+  <a href="https://github.com/Hulzland/Atlas/discussions">🚀 Discussions</a>
+  •
+  <a href="https://t.me/hulzl">💬 Telegram</a>
+</p>
+
 # Atlas – Development Branch
 
 ## The operating system that works the way you think (soon).
