@@ -1,14 +1,24 @@
-## 🖥️ Supported x86-64 CPU Architectures (Internal Test Coverage)
+## 🖥️ x86-64 CPU Architecture baseline
 
-## 💿 Legacy Architectures (x86-64-v2.1 Baseline with SSE4.2, POPCNT and AVX)
+## 💿 Legacy Architectures (x86-64-v2 Baseline with SSE4.2 and POPCNT)
 
-The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard, feature **AVX**,
+The following table lists all complete processor architectures and platforms from **Intel**, **AMD**, and **Zhaoxin** that fully comply with the **x86-64-v2** standard,
 but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 | Vendor | Architecture / Platform | Release Year | Popular CPU Series & Models | Additional Examples & Form Factors |
 | :--- | :--- | :---: | :--- | :--- |
-| **Intel** | **Sandy Bridge** | 2011 | Core i7-2600K, Core i5-2500K, Core i3-2100 | Xeon E3-1200, Xeon E5-2600, Core i7-3930K (HEDT) |
-| **Intel** | **Ivy Bridge** | 2012 | Core i7-3770K, Core i5-3570K, Core i3-3220 | Xeon E3-1200 v2, Xeon E5-2600 v2, Core i7-4930K |
+| **Intel** | **Nehalem** | 2008 | Core i7-920, i7-940, i7-965 Extreme | Xeon 5500 Series (server/workstation) |
+| **Intel** | **Westmere** | 2010 | Core i7-980X, i7-970 | Xeon 5600 / 7500 Series, mobile Arrandale/Clarksfield |
+| **Intel** | **Sandy Bridge** | 2011 | Core i7-2600K, i5-2500K, i3-2100 | Xeon E3-1200 v1, Xeon E5-2600 v1 |
+| **Intel** | **Ivy Bridge** | 2012 | Core i7-3770K, i5-3570K | Xeon E3-1200 v2, Xeon E5-2600 v2 |
+| **Intel** | **Bay Trail** | 2013 | Atom Z3770, Celeron J1900 | Tablets, low-power desktops, embedded SoCs |
+| **Intel** | **Braswell** | 2015 | Celeron N3150, Pentium N3700 | Entry laptops, mini PCs |
+| **Intel** | **Cherry Trail** | 2015 | Atom x5-Z8500, x7-Z8700 | Tablets, 2-in-1 devices |
+| **Intel** | **Apollo Lake** | 2016 | Celeron J3455, Pentium N4200 | Embedded systems, fanless PCs |
+| **Intel** | **Gemini Lake** | 2017 | Pentium Silver J5005, Celeron N4100 | Budget laptops, NAS, HTPCs |
+| **Intel** | **Lakefield** | 2020 | Core i5-L16G7 | Hybrid SoC (Foveros), ultra-mobile devices |
+| **Intel** | **Elkhart Lake** | 2020 | Atom x6000E, Pentium J6412 | IoT, industrial PCs, embedded boards |
+| **Intel** | **Jasper Lake** | 2021 | Celeron N5100, Pentium N6000 | Chromebooks, low-power laptops, mini PCs |
 | **AMD** | **Bulldozer** | 2011 | FX-8150, FX-6100, FX-4100 | Opteron 6200 Series, Opteron 4200 Series |
 | **AMD** | **Piledriver** | 2012 | FX-8350, FX-6300, FX-4300 | "Trinity" & "Richland" APUs (A10-5800K, A8-6600K), Opteron 6300 |
 | **AMD** | **Steamroller** | 2014 | Athlon X4 860K, FX-7600P | "Kaveri" & "Godavari" APUs (A10-7850K, A10-7800) |
