@@ -32,7 +32,7 @@ but lack support for **AVX2** (and thus do not meet x86-64-v3 requirements).
 
 ### ⚠️ Architecture Exclusions
 
-* **Intel Atom & Ultra-Low-Power (e.g., Cherry Trail, Bay Trail):** While they support x86-64-v2 features like SSE4.2, they physically lack AVX execution units and are excluded.
+* **Intel Core 2 & AMD Phenom** While they feature 64 Bit instructions and SSE4a, they physically lack SSE4.2 and POPCNT execution units and are excluded.
 
 ## 💻 Intermediate Architectures (x86-64-v3 Baseline with AVX2 Minimum, without AVX-512)
 
