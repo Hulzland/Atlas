@@ -124,12 +124,12 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 | **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 750 Ti | Intel HD Graphics 530 or equivalent / GTX 950 |
 | **Display** | 720p | 1080p or higher |
 
-- **Required Instruction Sets:** **SSE4.2**, **POPCNT**.
-- **Compatibility:** Most CPUs from 2010 onwards (Intel Nehalem / AMD Bulldozer or newer).
+- **Required Instruction Sets:** **SSE4.2**, **POPCNT**
+- **Compatible Microarchitecture:** Intel Nehalem / AMD Bulldozer or newer
 - **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
 - **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
-> *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing (2012 or newer). On older hardware, the effect will be turned off by default.*
+> *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing. On older hardware, the effect will be turned off by default.*
 
 ## 🧩 Built for everyone, open for tinkerers
 
