@@ -1,63 +1,138 @@
-# Atlas
-
-## The operating system that works the way you think.
-
-Atlas is being built on a professional-grade foundation with an interface that will feel instantly familiar. Whether you’re coming from – Atlas will adapt to you, not the other way around.
-
-The interaction is designed to be **consistent**, **intuitive**, and **intelligent**. From the moment you start the computer, you’ll notice how naturally everything falls into place.
+### Atlas
+The operating system that adapts to how you work.
 
 ---
 
-## 🎯 Designed for humans, not just for administrators
+Atlas is a modern Linux-based operating system designed to feel immediately familiar, responsive, and consistent from the first boot. It reduces friction without removing control, combining a polished desktop experience with a professional-grade technical foundation.
 
-**You don’t need to learn Linux.** Atlas hides complexity without locking you out. The interface elements are where you expect them, while still staying highly customizable – it feels like home. 
-
-**Everything has a purpose.** No clutter, no duplicated tools, no sudden terminal windows. Software installation will happen through the Atlas Store.
-
-**Performance is intelligence.** Atlas monitors memory usage and prioritises the application you’re actively using. Background tasks don't steal the spotlight. The result: your computer stays responsive even under heavy load, without you ever having to close a tab.
+It is built to stay out of your way when you work—and become powerful when you need it.
 
 ---
 
-## ✨ Key features – performance and design, together
+# 🎯 Designed for humans, built on Linux
 
-## 🧠 Intelligent memory management
+Atlas provides a clean, predictable desktop experience without requiring deep Linux knowledge for everyday use.
 
-Atlas will dynamically adjust how memory is allocated. Open dozens of browser tabs, edit large images, or run virtual machines – the system keeps your active work smooth and delays less critical tasks. Less stuttering, more consistency.
+No forced terminal usage for normal workflows
+A consistent, discoverable interface
+A unified software center for application installation
+Full system access remains available for advanced users
 
-### 💎 Translucent Diamond
-
-A subtle, refined glass effect that makes the active window stand out while gently blurring everything behind it. It’s not a distraction – it’s a visual cue that helps you focus. The effect is hardware‑accelerated and energy‑efficient.
-
-## 🗄️ Self‑healing storage
-
-Your files will be protected against silent corruption. Atlas uses a modern **Btrfs** file system that verifies every piece of data and can automatically repair damage when you have multiple drives. You don’t need to do anything – it just works.
-
-## 🚀 Responsive performance core
-
-Atlas ships with an tuned kernel that improves responsive interactivity, multitasking troughput and overall system efficiency. Whether you’re compiling code, rendering video, playing games or just browse the web, you’ll notice a difference.
-
-## 🪟 Additional application integration
-
-Atlas comes with **Bottles**, **Proton GE**, **ZLUDA**, and **SCALE** pre‑integrated. Run Windows software, games, and GPU‑accelerated workloads without dual‑booting or virtual machines.
-
-- **Bottles** – Manage Windows applications in isolated environments. Install and run many Windows‑only programs with a few clicks.
-- **Proton GE** – A custom version of Proton with additional patches for gaming. Play thousands of Windows games on Steam and other launchers, often with better performance than on non-linux based systems.
-- **ZLUDA** – Run CUDA applications on non‑NVIDIA GPUs (AMD and Intel). Enables GPU‑accelerated workflows on a wider range of hardware without rewriting code.
-- **SCALE** goes a step further: it is a complete compiler toolkit that recompiles CUDA code directly into native machine code for third-party GPUs. SCALE acts as a drop‑in replacement for NVIDIA's `nvcc` compiler – you don't even need to change your build scripts.
-
-All tools are fully graphical or pre‑configured. No terminal commands needed.
-
-## 🔒 Security that doesn’t get in your way
-
-Security updates from Debian’s trusted repositories make sure that your computer stays secure while you choose if you want to install updates. You own your machine, not the other way around.
-
-## 📦 One‑click driver support
-
-AMD and Intel graphics are ready immediately. For NVIDIA GPUs, proprietary drivers will install automatically. Wi‑Fi and Bluetooth chipsets are detected automatically.
+Atlas is not a locked system. It is a structured one.
 
 ---
 
-## 🖥️ Preliminary system requirements (subject to change)
+# ⚙️ System philosophy
+
+Atlas is designed around three principles:
+
+1. Responsiveness first
+
+The system prioritizes interactive performance so the active workload remains smooth under pressure.
+
+2. Predictable behavior
+
+No hidden background surprises—resource usage is governed by clear, consistent policies.
+
+3. Minimal cognitive load
+
+Every component exists for a reason. Redundancy and unnecessary UI surface area are intentionally reduced.
+
+---
+
+# 🧠 Intelligent resource management
+
+Atlas dynamically manages system resources to maintain responsiveness under load.
+
+Active applications receive priority scheduling
+Background tasks are deprioritized rather than terminated
+Memory pressure is handled through adaptive reclaim policies
+
+This is implemented using standard Linux kernel mechanisms combined with user-space policies.
+
+---
+
+# 💎 Desktop experience: Translucent Diamond
+
+Atlas features a hardware-accelerated compositing effect designed for clarity and focus.
+
+Active windows are visually emphasized
+Background content is subtly blurred
+Rendering is GPU-accelerated (Vulkan-capable systems)
+Automatically disabled on unsupported hardware
+
+The effect is designed to enhance focus, not distract from content.
+
+---
+
+# 🗄️ Storage integrity (Btrfs-based)
+
+Atlas uses the Linux Btrfs filesystem as a foundation for data integrity and modern storage features.
+
+End-to-end checksumming for data and metadata
+Snapshots for system recovery and rollback
+Optional redundancy-based self-repair (multi-disk setups)
+Transparent compression support where enabled
+
+Atlas can detect corruption and recover automatically when redundancy is available.
+
+---
+
+# 🚀 Performance model
+
+Atlas is based on a performance-oriented Linux kernel configuration focused on responsiveness and throughput.
+
+Low-latency scheduling configuration
+Optimized memory reclaim behavior
+Reduced background interference for active tasks
+Tuned I/O prioritization policies
+
+The goal is consistent interactivity, even under heavy workloads such as:
+
+- Gaming
+- Compilation
+- Multimedia editing
+- Virtualization
+
+---
+
+# 🪟 Application ecosystem
+
+Atlas integrates common compatibility and gaming tools to simplify software access.
+
+Included components
+Bottles – Run Windows applications in isolated environments
+Proton – Compatibility layer for Windows games
+ZLUDA – GPU compute translation layer for CUDA-style workloads
+
+These tools are pre-configured for GUI-based usage where possible.
+
+---
+
+# GPU compute compatibility
+
+Atlas includes a research-oriented toolchain concept for GPU workload portability:
+
+CUDA-compatible workflow support is planned
+Focus is on enabling cross-vendor GPU execution where feasible
+Performance and compatibility vary by workload and hardware
+
+*Note: This layer is experimental and not guaranteed to be fully compatible with all CUDA applications.*
+
+# 🔒 Security model
+
+Atlas follows standard Linux security practices with a user-focused update model.
+
+Updates sourced from trusted Linux repositories
+Optional update scheduling (user-controlled)
+Sandboxed application support where available
+No hidden telemetry or background data collection
+
+Users remain in control of when and how updates are applied.
+
+---
+
+# 🖥️ Preliminary system requirements
 
 Atlas is designed to run on everyday hardware – from older notebooks to powerful workstations.
 
@@ -69,9 +144,8 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 | **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 750 Ti | Intel HD Graphics 530 or equivalent / GTX 950 |
 | **Display** | 720p | 1080p or higher |
 
-- **Microarchitecture:** x86-64-v2 and mandatory **AVX** support.
-- **Required Instruction Sets:** **SSE4.2**, **POPCNT**, and **AVX**.
-- **Compatibility:** Most CPUs from 2011 onwards (Intel Sandy Bridge / AMD Bulldozer or newer).
+- **Required Instruction Sets:** **SSE4.2**, **POPCNT**.
+- **Compatibility:** Most CPUs from 2009 onwards (Intel Nehalem / AMD Bulldozer or newer).
 - **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
 - **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
@@ -79,13 +153,13 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 
 ---
 
-## 🧩 Built for everyone, open for tinkerers
+# 🧩 Built for everyone, open for tinkerers
 
 Atlas is open source (GPL‑3.0). If you ever want to customise the look, change the kernel, or build your own version, all tools and scripts are in the `tools/` directory. But you don't have to.
 
 ---
 
-## 📅 Release timeline
+# 📅 Release timeline
 
 - **Q4 2026** – First productive release  
 - Until then, Atlas remains in **development branch**.  
