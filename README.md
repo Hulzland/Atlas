@@ -85,9 +85,9 @@ The goal is consistent interactivity, even under heavy workloads such as:
 Atlas integrates common compatibility and gaming tools to simplify software access.
 
 Included components
-Bottles – Run Windows applications in isolated environments
-Proton – Compatibility layer for Windows games
-ZLUDA – GPU compute translation layer for CUDA-style workloads
+- Bottles: Run Windows applications in isolated environments
+- Proton: Compatibility layer for Windows games
+- ZLUDA: GPU compute translation layer for CUDA-style workloads
 
 These tools are pre-configured for GUI-based usage where possible.
 
@@ -118,14 +118,14 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
-| **Processor** | x86 64‑bit, 2 cores / 4 CPUs @ 2 GHz | x86 64‑bit, 4 cores @ 2.5 GHz or faster |
+| **Processor** | x86 64‑bit, 2 cores / 4 Threads @ 2 GHz | x86 64‑bit, 4 cores @ 2.5 GHz or faster |
 | **Memory (RAM)** | 4 GB | 8 GB or more |
 | **Storage** | 25 GB free space | 64 GB SSD (or larger) |
-| **Graphics** | Intel HD Graphics 3000 or equivalent / GTX 750 Ti | Intel HD Graphics 530 or equivalent / GTX 950 |
+| **Graphics** | Intel HD Graphics 2000 or equivalent / NVIDIA GeForce GTX 750 Ti | Intel HD Graphics 530 or equivalent / NVIDIA GeForce GTX 950 |
 | **Display** | 720p | 1080p or higher |
 
 - **Required Instruction Sets:** **SSE4.2**, **POPCNT**
-- **Compatible Microarchitecture:** Intel Nehalem / AMD Bulldozer or newer
+- **Compatible Microarchitectures:** Intel Nehalem / AMD Bulldozer or newer
 - **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
 - **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
