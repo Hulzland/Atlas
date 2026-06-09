@@ -1,4 +1,4 @@
-### Atlas
+# Atlas
 The operating system that adapts to how you work.
 
 ---
@@ -9,7 +9,7 @@ It is built to stay out of your way when you work—and become powerful when you
 
 ---
 
-# 🎯 Designed for humans, built on Linux
+## 🎯 Designed for humans, built on Linux
 
 Atlas provides a clean, predictable desktop experience without requiring deep Linux knowledge for everyday use.
 
@@ -22,7 +22,7 @@ Atlas is not a locked system. It is a structured one.
 
 ---
 
-# ⚙️ System philosophy
+## ⚙️ System design
 
 Atlas is designed around three principles:
 
@@ -40,7 +40,7 @@ Every component exists for a reason. Redundancy and unnecessary UI surface area 
 
 ---
 
-# 🧠 Intelligent resource management
+## 🧠 Intelligent resource management
 
 Atlas dynamically manages system resources to maintain responsiveness under load.
 
@@ -52,7 +52,7 @@ This is implemented using standard Linux kernel mechanisms combined with user-sp
 
 ---
 
-# 💎 Desktop experience: Translucent Diamond
+## 💎 Desktop experience: Translucent Diamond
 
 Atlas features a hardware-accelerated compositing effect designed for clarity and focus.
 
@@ -65,7 +65,7 @@ The effect is designed to enhance focus, not distract from content.
 
 ---
 
-# 🗄️ Storage integrity (Btrfs-based)
+## 🗄️ Storage integrity (Btrfs-based)
 
 Atlas uses the Linux Btrfs filesystem as a foundation for data integrity and modern storage features.
 
@@ -78,7 +78,7 @@ Atlas can detect corruption and recover automatically when redundancy is availab
 
 ---
 
-# 🚀 Performance model
+## 🚀 Performance model
 
 Atlas is based on a performance-oriented Linux kernel configuration focused on responsiveness and throughput.
 
@@ -96,7 +96,7 @@ The goal is consistent interactivity, even under heavy workloads such as:
 
 ---
 
-# 🪟 Application ecosystem
+## 🪟 Application ecosystem
 
 Atlas integrates common compatibility and gaming tools to simplify software access.
 
@@ -109,7 +109,7 @@ These tools are pre-configured for GUI-based usage where possible.
 
 ---
 
-# GPU compute compatibility
+## GPU compute compatibility
 
 Atlas includes a research-oriented toolchain concept for GPU workload portability:
 
@@ -119,7 +119,7 @@ Performance and compatibility vary by workload and hardware
 
 *Note: This layer is experimental and not guaranteed to be fully compatible with all CUDA applications.*
 
-# 🔒 Security model
+## 🔒 Security model
 
 Atlas follows standard Linux security practices with a user-focused update model.
 
@@ -132,7 +132,7 @@ Users remain in control of when and how updates are applied.
 
 ---
 
-# 🖥️ Preliminary system requirements
+## 🖥️ Preliminary system requirements
 
 Atlas is designed to run on everyday hardware – from older notebooks to powerful workstations.
 
@@ -153,13 +153,13 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 
 ---
 
-# 🧩 Built for everyone, open for tinkerers
+## 🧩 Built for everyone, open for tinkerers
 
 Atlas is open source (GPL‑3.0). If you ever want to customise the look, change the kernel, or build your own version, all tools and scripts are in the `tools/` directory. But you don't have to.
 
 ---
 
-# 📅 Release timeline
+## 📅 Release timeline
 
 - **Q4 2026** – First productive release  
 - Until then, Atlas remains in **development branch**.  
