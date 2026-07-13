@@ -126,7 +126,7 @@ Atlas is designed to run on everyday hardware – from older notebooks to powerf
 
 - **Required Instruction Sets:** **SSE4.2**, **POPCNT**
 - **Compatible Microarchitectures:** Intel Nehalem / AMD Bulldozer or newer
-- **Hardware Virtualization:** Highly recommended in **BIOS/UEFI**.
+- **Hardware Virtualization:** Highly recommended in **UEFI**.
 - **Boot Mode:** **UEFI** required for the operating system to boot. **Secure Boot** recommended.
 
 > *The Translucent Diamond effect is planned to work on GPUs that support Vulkan and compositing. On older hardware, the effect will be turned off by default.*
@@ -137,8 +137,9 @@ Atlas is open source (GPL‑3.0). If you ever want to customise the look, change
 
 ## 📅 Release timeline
 
-- **Q4 2026** – First productive release  
-- Until then, Atlas remains in **development branch**.  
+- **Q4 2026** – First final release  
+- Until then, Atlas remains in **development branch**.
+- *Note: Atlas development branch is a rolling release and it is still in it's very early development phase and not in a pre-release state until October 2026.* 
 
 © 2026 Atlas by Hulzland 
 © 2026 Hulzland Software  
